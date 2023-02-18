@@ -1,5 +1,5 @@
 import { Navbar } from "./components/organisms";
-import { About, Home } from "./sections";
+import { About, Courses, Home } from "./sections";
 
 export default function App() {
   return (
@@ -7,6 +7,7 @@ export default function App() {
       <Navbar />
       <Home />
       <About />
+      <Courses />
     </div>
   );
 }

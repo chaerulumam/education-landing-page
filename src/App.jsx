@@ -1,4 +1,4 @@
-import { Navbar } from "./components/organisms";
+import { Footer, Navbar } from "./components/organisms";
 import { About, Contact, Courses, Home, Teacher } from "./sections";
 
 export default function App() {
@@ -10,6 +10,7 @@ export default function App() {
       <Courses />
       <Teacher />
       <Contact />
+      <Footer />
     </div>
   );
 }

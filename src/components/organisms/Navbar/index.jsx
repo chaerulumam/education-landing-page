@@ -42,6 +42,7 @@ const Navbar = () => {
               return <NavLinkItem key={navLink.id} {...navLink} />;
             })}
           </div>
+
           <button className="py-3 px-6 text-Teal hover:text-teal-900 font-bold text-sm border border-solid rounded-lg border-Teal">
             Sign Up
           </button>

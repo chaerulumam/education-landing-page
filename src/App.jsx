@@ -1,5 +1,5 @@
 import { Navbar } from "./components/organisms";
-import { About, Courses, Home } from "./sections";
+import { About, Courses, Home, Teacher } from "./sections";
 
 export default function App() {
   return (
@@ -8,6 +8,7 @@ export default function App() {
       <Home />
       <About />
       <Courses />
+      <Teacher />
     </div>
   );
 }
